@@ -18,21 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: FW/1 - The Invisible Framework
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Framework One - is a family of small, lightweight, convention-over-configuration frameworks, primarily for CFML. FW/1 itself provides MVC, DI/1 provides dependency injection (a.k.a. inversion of control), and AOP/1 provides aspect-oriented programming features on top of DI/1.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /blog/:year/:month/:day/:title/
 
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-tagging
+  
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
