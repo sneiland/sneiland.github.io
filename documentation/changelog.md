@@ -8,8 +8,6 @@ footer: true
 
 ---
 
-# Changelog
-
 # [v4.3](/documentation/releases/4.3)
 ---
 {% include_relative releases/4.3/changelog.md %}

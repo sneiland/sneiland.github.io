@@ -4,6 +4,7 @@ title: "FW/1 & Clojure Sitting in Tree"
 date: 2015-01-25 14:30:49 -0700
 comments: true
 tags: [fw1, clojure]
+author: Sean Corfield
 ---
 Anyone following my tech trajectory will know that, after starting to learn Clojure in 2010, I've moved increasingly away from CFML and toward Clojure. In 2014, my team decided that Clojure would be our official primary language and all new development would happen there instead of in CFML. We still have a lot of CFML code in production - about 90kloc - but we consider it "legacy code" at this point. Most of that CFML code is a large ColdBox app that we built about five years ago (technically it's three ColdBox apps but they share a lot of code). Our application Model has been slowly moving to Clojure so that we can reuse that code in new applications we're building in Clojure. We've also been building new apps with FW/1 (and reusing both our CFML code and our Clojure code). We still like CFML as a templating language for views and our controllers - in our FW/1 apps at least - are often mostly just "glue" code that lets us call into our Clojure model code.<!-- more -->
 

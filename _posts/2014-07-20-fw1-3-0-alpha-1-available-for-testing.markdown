@@ -4,6 +4,7 @@ title: "FW/1 3.0 Alpha 1 available for testing!"
 date: 2014-07-20 18:14:24 -0700
 comments: true
 tags: [releases, fw1, di1]
+author: Sean Corfield
 ---
 I consider FW/1 3.0 to be _feature complete_ at this point so I am releasing Alpha 1 for testing. I expect people to run into a few bugs - this release has some big changes in it, compared to the 2.x release stream - and it's possible that new feature requests will crop up during alpha testing, but everything I wanted to change is in place.<!-- more -->
 

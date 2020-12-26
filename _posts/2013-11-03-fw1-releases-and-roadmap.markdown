@@ -4,6 +4,7 @@ title: "FW/1 Releases and Roadmap"
 date: 2013-11-03 12:38:30 -0700
 comments: true
 tags: [releases, roadmap, fw1]
+author: Sean Corfield
 ---
 Today I released the first [FW/1 Version 2.2 Release Candidate](https://github.com/framework-one/fw1/releases/tag/v2.2-rc1) for testing. See below for the list of changes in this release, compared to Version 2.1. I also released a maintenance update for the old compatibility branch: [FW/1 Version 1.3](https://github.com/framework-one/fw1/releases/tag/v1.3) (the "Latest Release" label is due to Github's view of the world, but it is the latest 1.x release). This is the version to use if you're on CFMX 7, CF 8, CF 9.0.0, Railo versions prior to 3.2, or OpenBD.<!-- more -->
 

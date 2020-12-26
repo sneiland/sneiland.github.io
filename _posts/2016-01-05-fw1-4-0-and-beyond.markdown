@@ -4,6 +4,7 @@ title: "FW/1 4.0 and Beyond"
 date: 2016-01-05 22:20
 comments: true
 tags: [releases, fw1, di1, aop1, clojure]
+author: Sean Corfield
 ---
 Happy New Year and Welcome to 2016!
 

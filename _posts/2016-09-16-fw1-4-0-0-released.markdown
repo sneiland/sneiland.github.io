@@ -4,6 +4,7 @@ title: "FW/1 4.0.0 Released!"
 date: 2016-09-16 21:15
 comments: true
 tags: [releases, fw1, di1, aop1, clojure]
+author: Sean Corfield
 ---
 The [Gold Release of FW/1 4.0.0](https://github.com/framework-one/fw1/releases/tag/v4.0.0) is available for general release and production use. The focus of this release is improved REST support:
 

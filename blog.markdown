@@ -5,10 +5,15 @@
 # layout: home
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div>
+	{% for post in site.posts %}
+		{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+		{% unless year == this_year %}
+			{% assign year = this_year %}
+			<h2>{{ year }}</h2>
+			<hr/>
+		{% endunless %}
+		
+		<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+	{% endfor %}
+</div>

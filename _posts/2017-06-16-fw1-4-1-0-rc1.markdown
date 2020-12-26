@@ -4,6 +4,7 @@ title: "FW/1 4.1.0 Release Candidate Available"
 date: 2017-06-16 10:35
 comments: true
 tags: [releases, fw1, di1, aop1, clojure]
+author: Sean Corfield
 ---
 The first [Release Candidate of FW/1 4.1.0](https://github.com/framework-one/fw1/releases/tag/v4.1.0-rc1) is available for testing.
 

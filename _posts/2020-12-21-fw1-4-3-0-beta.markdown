@@ -4,6 +4,7 @@ title: "FW/1 4.3 Beta"
 date: 2020-12-21 08:00
 comments: true
 tags: [releases, fw1]
+author: Steven Neiland
 ---
 
 Its been a long time coming but after over a year of learning the framework, accepting bug fixes, fighting jekyl and surviving the general hell that has been 2020 I can happily announce that [FW/1 4.3.0 beta](https://github.com/framework-one/fw1/tree/v4.3.0-beta.1) is now available for testing. This release is mostly bug fixes but also includes a new small feature hence the minor version number bump.

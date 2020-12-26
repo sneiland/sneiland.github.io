@@ -4,6 +4,7 @@ title: "cfmljure Release 0.1.0"
 date: 2015-01-23 14:30:49 -0700
 comments: true
 tags: [releases, clojure]
+author: Sean Corfield
 ---
 I started cfmljure back in 2010, a few months after I started to learn Clojure, as a way to run Clojure code inside a CFML application. That early version worked - we've been using it in at World Singles since mid-2011 to integrate Clojure into our large ColdBox application, and updated versions of cfmljure have been in very heavy production usage since May 2012.<!-- more --> Those early versions were pretty clunky to setup though, since you needed to mess with the classpath of your CFML engine (or at least the container on which you ran it - Tomcat, in our case) and you needed to copy all your third-party library dependencies into the `WEB-INF/lib` folder (and restart your container if you changed your dependencies).
 

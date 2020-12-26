@@ -4,6 +4,7 @@ title: "cfmljure mailing list"
 date: 2010-09-21 13:21:49 -0700
 comments: true
 tags: [clojure]
+author: Sean Corfield
 ---
 I mentioned it in passing in one of my early posts about using Clojure from CFML but, since only one person signed up, thought it was worth mentioning again: there is a [mailing list for cfmljure](http://groups.google.com/group/cfmljure) where you can ask questions about the project and Clojure itself or, if you're new to CFML and coming from the Clojure world, you can ask questions about CFML!
 

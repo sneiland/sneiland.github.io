@@ -1,0 +1,16 @@
+{% capture tag %}
+	{% if post %}
+		{{ post.tags | category_links | size }}
+	{% else %}
+		{{ page.tags | category_links | size }}
+	{% endif %}
+{% endcapture %}
+{% unless tag == '0' %}
+<span class="tags">
+  {% if post %}
+    {{ post.tags | category_links }}
+  {% else %}
+    {{ page.tags | category_links }}
+  {% endif %}
+</span>
+{% endunless %}

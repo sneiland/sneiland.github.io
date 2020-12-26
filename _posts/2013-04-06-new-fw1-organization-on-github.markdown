@@ -4,6 +4,7 @@ title: "New FW/1 - Framework One - Organization on Github"
 date: 2013-04-06 13:21:49 -0700
 comments: true
 tags: [roadmap, clojure, fw1, di1]
+author: Sean Corfield
 ---
 To make it easier to manage collaboration on FW/1-related projects in future, several projects have now moved under a new [FW/1 - Framework One](https://github.com/framework-one) - organization on Github. Your forks and watches should have been updated but if you have local clones of the old repos under my personal Github account, you'll want to update those. Here's the full list of Framework One projects:<!-- more -->
 
