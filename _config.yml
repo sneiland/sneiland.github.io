@@ -42,9 +42,6 @@ plugins:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
-
-category_dir: blog/categories
-
 subscribe_rss: /atom.xml
 show_downloads: false
 
