@@ -3,9 +3,6 @@ layout: default
 single: true
 ---
 
-
-<span style="float:right">Tags: {% for tag in page.tags %} {{ tag }}{% endfor %}</span>
-
 <hr style="clear:both"/>
 
 
@@ -19,7 +16,6 @@ single: true
       {% include post/author.html %}
       {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
       {% include post/categories.html %}
-      {% include post/tags.html %}
     </p>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}

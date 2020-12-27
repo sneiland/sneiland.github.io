@@ -37,10 +37,7 @@ github_user: framework-one
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-  - jekyll-tagging
-  
-tag_page_layout: tag_page
-tag_page_dir: tag
+ 
 
 subscribe_rss: /atom.xml
 show_downloads: false
