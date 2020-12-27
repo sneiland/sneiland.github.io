@@ -1,16 +1,14 @@
 
-Summary
----
+### Summary
+
 The [4.1 release](/documentation/4.1) is intended to be a minor maintenance release over 4.0. 
 The following changes are part of FW/1 4.1 and DI/1 1.3.0.
 
-Breaking Changes
----
+### Breaking Changes
 
 * [466](https://github.com/framework-one/fw1/issues/466) - Clojure integration is no longer provided out of the box, so that Lucee 5.x can be officially supported.
 
-Enhancements
----
+### Enhancements
 
 * [481](https://github.com/framework-one/fw1/issues/481) - `customTemplateEngine()` extension point and `makeMethodProxies()` utility function have been added to make it easier to support additional templating engines. An example is provided for `mustache` in which the views and layouts are HTML templates rendered by a Java implementation of the [Mustache template language](http://mustache.github.io).
 * [472](https://github.com/framework-one/fw1/issues/472) - Since Adobe ColdFusion 9 is no longer supported, dynamic method invocations are done via `invoke()` rather than `evaluate()` (and so they might be slightly faster).
@@ -20,8 +18,7 @@ Enhancements
 * [452](https://github.com/framework-one/fw1/issues/452) - `baseURL` with trailing `/` no longer causes `//` to appear in URLs (when calling `buildURL()`).
 * [424](https://github.com/framework-one/fw1/issues/424) - To partially support the desire to unload bean factory data when FW/1 is reloaded, there is a new extension point `onReload()`.
 
-Bug Fixes
----
+### Bug Fixes
 
 * [463](https://github.com/framework-one/fw1/issues/463) - A potential XSS vulnerability in the default exception reporting function has been addressed.
 * [462](https://github.com/framework-one/fw1/pull/462) - Addresses a race condition around resolving transients under heavy load. Thanks to John Whish and jcberquist for chasing this down!

@@ -1,6 +1,5 @@
 
-Summary
----
+### Summary
 
 The focus of the [4.0 release](/documentation/4.0) is on improving REST support. The following changes are part of FW/1 4.0, DI/1 1.2.0, and cfmljure 1.1.0.
 
@@ -15,16 +14,14 @@ The focus of the [4.0 release](/documentation/4.0) is on improving REST support.
 
 In addition, DI/1 has had a number of enhancements, including the addition of a builder syntax for programmatically declaring beans.
 
-Breaking Changes
----
+### Breaking Changes
 
 * [443](https://github.com/framework-one/fw1/issues/443) - Prevented `loadListener` from being accidentally inherited and run on a managed subsystem bean factory (it should only run on the main parent factory). This is potentially breaking: if you relied on running load listeners multiple times -- however, that was never a recommended approach.
 * [400](https://github.com/framework-one/fw1/issues/400) - By default, `property` declarations that contain a `type` or `default` are now ignored for autowiring. In earlier versions of FW/1 (DI/1), such `property` declarations would have been treated as dependencies and autowired: you could override that behavior for _typed_ properties by specifying `omitTypedProperties : true` in your configuration. That is now the default behavior. In addition a new `omitDefaultedProperties` setting has been added, also defaulted to `true`, which is what tells FW/1 (DI/1) to ignore `property` declarations that contain a `default`. If you need to restore the pre-4.0 behavior, add `omitDefaultedProperties` and/or `omitTypedProperties` to your configuration, set to `false`.
 * [391](https://github.com/framework-one/fw1/issues/391) - Adobe ColdFusion 9.0.2 is no longer a supported platform. FW/1 4.0 relies on closure support and therefore requires Adobe ColdFusion 10 or later. Support for Railo and Lucee has not changed.
 * [390](https://github.com/framework-one/fw1/issues/390) - If you override `missingBean()` in DI/1, read the documentation carefully as this is now an official extension point with different behavior to previous releases.
 
-Enhancements
----
+### Enhancements
 
 * [448](https://github.com/framework-one/fw1/issues/448) - Added `callClojure()` extension point for `cljcontroller.cfc`.
 * [442](https://github.com/framework-one/fw1/issues/442) - In Alpha 1 and Beta 1, the `decodeRequestBody` setting was called `enableJSONPOST`. As a migration aid, attempting to set `enableJSONPOST` will throw an exception saying you should use `decodeRequestBody` instead.
@@ -55,8 +52,7 @@ Enhancements
 * [385](https://github.com/framework-one/fw1/issues/385) - The new `renderData()` build syntax supports `statusText()` to set the HTTP response status text.
 * [328](https://github.com/framework-one/fw1/issues/328) - The `renderData()` `type` may be a function/closure that returns `contentType`, rendered `content`, and an optional `writer` for delivering the data to the browser.
 
-Bug Fixes
----
+### Bug Fixes
 
 * [449](https://github.com/framework-one/fw1/issues/449) - Fix race condition in DI/1's bean resolution caching.
 * [446](https://github.com/framework-one/fw1/issues/446) - Fix bug in `$RESOURCES` when `nested` resource appeared in multiple `resources`.
