@@ -46,6 +46,8 @@ show_downloads: false
 disqus_short_name: framework-one
 disqus_show_comment_count: true
 
+show_downloads: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

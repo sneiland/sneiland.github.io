@@ -30,11 +30,11 @@
 		<a href="{{ root_url }}/blog" class="btn">Blog</a>
 		<a href="{{ root_url }}/documentation" class="btn">Documentation</a>
 		{% if site.github.is_project_page %}
-			<a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+			<a href="https://github.com/framework-one/fw1/" class="btn" target="_blank">View on GitHub</a>
 		{% endif %}
 		{% if site.show_downloads %}
-			<a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-			<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+			<a href="https://github.com/framework-one/fw1/archive/master.zip" class="btn">Download 4.2 (Current)</a>
+			<a href="https://github.com/framework-one/fw1/archive/v4.3.0-beta.1.zip" class="btn">Download 4.3 (Beta)</a>
 		{% endif %}
 		{% if site.subscribe_rss %}
 			<a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS" class="btn">RSS</a>
