@@ -241,6 +241,7 @@ GEM
       faraday (> 0.8, < 2.0)
     simpleidn (0.1.1)
       unf (~> 0.1.4)
+    stringex (2.8.5)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -262,6 +263,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-tagging
+  stringex
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

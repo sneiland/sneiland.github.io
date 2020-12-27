@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 4.0.0 Release Candidate 1"
 date: 2016-07-26 12:00
 comments: true
-tags: [releases, fw1, di1, aop1, clojure]
+categories: [releases, fw1, di1, aop1, clojure]
 author: Sean Corfield
 ---
 [FW/1 4.0.0 RC 1](https://github.com/framework-one/fw1/releases/tag/v4.0.0-rc1) is available.

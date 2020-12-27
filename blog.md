@@ -5,7 +5,7 @@
 # layout: home
 ---
 
-<div>
+<div class="blog-index">
 	{% for post in site.posts %}
 		{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 		{% unless year == this_year %}
@@ -14,6 +14,9 @@
 			<hr/>
 		{% endunless %}
 		
-		<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+		<article>
+			{% include blog/year.html %}
+		</article>
+		
 	{% endfor %}
 </div>

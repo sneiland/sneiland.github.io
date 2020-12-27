@@ -42,6 +42,12 @@ plugins:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+
+category_dir: blog/categories
+
+subscribe_rss: /atom.xml
+show_downloads: false
+
 # Disqus Comments
 disqus_short_name: framework-one
 disqus_show_comment_count: true

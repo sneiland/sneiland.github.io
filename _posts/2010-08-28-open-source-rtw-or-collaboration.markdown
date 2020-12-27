@@ -3,7 +3,7 @@ layout: post
 title: "Open Source: RTW or Collaboration?"
 date: 2010-08-28 13:21:49 -0700
 comments: true
-tags: [di1, fw1, oss]
+categories: [di1, fw1, oss]
 author: Sean Corfield
 ---
 RTW - Reinventing The Wheel - is normally a bad thing. I'm said several times that the main reason we have no truly great open source software in ColdFusion is because when we see an open source project that doesn't do what we need, we go off and build our version, which we may or may not open source, instead of collaborating on the existing project to make it better.<!-- more -->

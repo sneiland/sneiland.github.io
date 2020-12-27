@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 4.3 Beta"
 date: 2020-12-21 08:00
 comments: true
-tags: [releases, fw1]
+categories: [releases, fw1]
 author: Steven Neiland
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 Roadmap"
 date: 2019-03-27 20:15
 comments: true
-tags: [releases, fw1, di1, aop1]
+categories: [releases, fw1, di1, aop1]
 author: Sean Corfield
 ---
 ## BREAKING NEWS!! Updated March 28th, 2019

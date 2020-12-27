@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 Out of the Box"
 date: 2015-09-06 23:00
 comments: true
-tags: [releases, fw1, commandbox]
+categories: [releases, fw1, commandbox]
 author: Sean Corfield
 ---
 FW/1 is up on [ForgeBox](http://www.coldbox.org/forgebox). ForgeBox is the npm / Maven of the CFML world. If you haven't heard about it -- or you think it's only for "Box" products -- you need to check it out! It's a repository for CFML projects that can be easily installed via [Command Box](https://www.ortussolutions.com/products/commandbox). Wait! You haven't heard of that either? Gosh, you've got some reading to do! It'll change the way you do development!

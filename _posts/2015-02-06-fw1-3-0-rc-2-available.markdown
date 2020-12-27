@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 3.0 RC 2 available"
 date: 2015-02-06 21:21:49 -0700
 comments: true
-tags: [releases, fw1, di1]
+categories: [releases, fw1, di1]
 author: Sean Corfield
 ---
 About two weeks ago I released [FW/1 3.0 RC 1](http://framework-one.github.io/blog/2015/01/24/fw1-3-0-rc-1-available/) and the only real bug persisting at that point was related to [DI/1 dotted path deduction](https://github.com/framework-one/fw1/issues/283).

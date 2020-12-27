@@ -3,7 +3,7 @@ layout: post
 title: "FW/1 3.0 RC 1 available"
 date: 2015-01-24 23:21:49 -0700
 comments: true
-tags: [releases, fw1, di1]
+categories: [releases, fw1, di1]
 author: Sean Corfield
 ---
 FW/1 3.0 has been in beta testing since August 2014 and lots of people are already running in production so I figured it was time to push out the first [Release Candidate build](https://github.com/framework-one/fw1/releases/tag/v3.0-rc1).

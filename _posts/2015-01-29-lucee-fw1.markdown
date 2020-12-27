@@ -3,7 +3,7 @@ layout: post
 title: "Lucee and FW/1"
 date: 2015-01-29 14:30:49 -0700
 comments: true
-tags: [fw1, clojure, lucee, di1, releases]
+categories: [fw1, clojure, lucee, di1, releases]
 author: Sean Corfield
 ---
 Today saw the announcement of the [Lucee Association Switzerland](http://lucee.org) and the release of a new open source CFML engine: [Lucee 4.5.0](http://lucee.org/downloads.html).
